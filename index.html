@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- 웹 폰트 연결 -> fonts.google.com 참조 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- 슬라이더 플러그인 사용시 필수 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- css 문서 연결 -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Hong Gil Dong</h1>
+        <ul class="gnb">
+            <li><a href="#">Main</a></li>
+            <li><a href="#">Introduce</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="section-1">
+            <h2>Hello World!</h2>
+            <div class="memoji">
+                <img src="./images/memoji.png" alt="">
+            </div>
+            <div class="intro-text">
+                Video Editor & Motion Graphic Designer
+                <h3>Hong Gil Dong</h3>
+                2022 Portfolio
+            </div>
+        </section>
+        <section class="section-2">
+            <!-- 인사말 등 자유로운 텍스트 넣을 수 있는 공간(생략 가능) -->
+            <div class="wrap">
+                <!-- wrap은 여백을 잡아주는 역할 -->
+                <div class="intro-message">
+                    <h3>Introduction</h3>
+                    <div class="text-wrapper">
+                        <div class="txt1">
+                            동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                            동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                            동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                            동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                        </div>
+                        <div class="txt2">
+                            동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-3">
+            <div class="wrap">
+                <h3>Profile</h3>
+                <div class="visual">
+                    <!-- 자신을 표현할 수 있는 프로필 사진이나 타이포 그라피 등 넣기 -->
+                    <img src="./images/memoji.png" alt="">
+                </div>
+                <div class="information">
+                    <!-- 자신의 스택(기술), 경력, 학력, 경험 자격 등 기술하기 -->
+                    <div class="edu">
+                        <h4>Education</h4>
+                        <div class="list">
+                            <p class="title">부산더조은컴퓨터아카데미 00전문가 양성과정</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                        <div class="list">
+                            <p class="title">부산더조은컴퓨터아카데미 00전문가 양성과정</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                        <div class="list">
+                            <p class="title">부산더조은컴퓨터아카데미 00전문가 양성과정</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                        <div class="list">
+                            <p class="title">부산더조은컴퓨터아카데미 00전문가 양성과정</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <h4>Experiences</h4>
+                        <div class="list">
+                            <p class="title">00회사 00팀</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                        <div class="list">
+                            <p class="title">00회사 00팀</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                        <div class="list">
+                            <p class="title">00회사 00팀</p>
+                            <p class="period">2022.01.01~2022.05.05</p>
+                        </div>
+                    </div>
+                    <div class="stack">
+                        <h4>Stacks</h4>
+                        <div class="list">
+                            <div class="icon">
+                                <img src="./images/stack-ico.png" alt="">
+                            </div>
+                            <div class="tit">Adobe Premier Pro</div>
+                        </div>
+                        <div class="list">
+                            <div class="icon">
+                                <img src="./images/stack-ico.png" alt="">
+                            </div>
+                            <div class="tit">Adobe Premier Pro</div>
+                        </div>
+                        <div class="list">
+                            <div class="icon">
+                                <img src="./images/stack-ico.png" alt="">
+                            </div>
+                            <div class="tit">Adobe Premier Pro</div>
+                        </div>
+                        <div class="list">
+                            <div class="icon">
+                                <img src="./images/stack-ico.png" alt="">
+                            </div>
+                            <div class="tit">Adobe Premier Pro</div>
+                        </div>
+                        <div class="list">
+                            <div class="icon">
+                                <img src="./images/stack-ico.png" alt="">
+                            </div>
+                            <div class="tit">Adobe Premier Pro</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <div class="wrap">
+                <h3>Video Edit & Motion Graphics</h3>
+                <div class="content swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+                        </div>
+                        <!-- <div class="swiper-slide">
+                            <a href="#" target="_blank"> 
+                                <img src="./images/thumbnail.png" alt="">
+                                <div class="title">제목을 입력해주세요.</div>
+                            </a>
+
+                        </div> -->
+                    </div>
+                    <div class="swiper-button-next"></div><!--다음 버튼-->
+                    <div class="swiper-button-prev"></div><!--이전 버튼-->
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-5">
+            <div class="wrap">
+                <h3>Graphics</h3>
+                <!-- 꼴라쥬 그리드 레이아웃 -->
+                <div class="column">
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-1.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-2.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-3.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-4.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-5.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-6.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-7.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-8.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="./images/demo-img-9.jpeg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="popup">
+                <!-- 이미지 클릭시 확장 -->
+                <div class="image-focus"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <h3>Get In Touch</h3>
+            <address>
+                <ul>
+                    <li>
+                        <h4>E-Mail</h4>
+                        <p>aaaa@tjoeun.co.kr</p>
+                    </li>
+                    <li>
+                        <h4>Phone</h4>
+                        <p>010-5555-6666</p>
+                    </li>
+                    <li>
+                        <h4>기타 등등</h4>
+                        <p>@insta-id</p>
+                    </li>
+                </ul>
+            </address>
+        </div>
+    </footer>
+
+    <script>
+        // 슬라이더 플러그인 활성화
+        var slider = new Swiper(".swiper", {
+            slidesPerView: 4,
+            loop: true,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    
+
+        // 꼴라쥬 이미지 팝업 띄우기
+        $(".column a").on("click", function(e){e.preventDefault();})
+        $(".column .item").on("click", function() {
+            $(".popup").css("display","flex");
+
+            var img = $(this).html();
+            $(".popup .image-focus").html(img);
+        });
+        $(".popup").on("click", function() {
+            $(this).hide();
+        })
+        $(".popup .image-focus").on("click", function(e) {e.stopPropagation();})
+    </script>
+</body>
+</html>
